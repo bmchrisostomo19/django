@@ -1,1 +1,2 @@
-web: gunicorn django-projetointegrador:app
+web: gunicorn 
+web: bundle exec bin/rails server -p $PORT -e $RAILS_ENV
