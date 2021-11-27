@@ -1,1 +1,1 @@
-web: django-projetointegrador 
+web: gunicorn django-projetointegrador:app
